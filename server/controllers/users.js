@@ -93,7 +93,7 @@ exports.update = {
     notes: ' ',
     tags: ['api'],
     validate: {
-        params:{
+        params: {
             email: Joi.string().required()
         },
         payload: {
@@ -104,7 +104,7 @@ exports.update = {
     auth: false,
     handler: (request, reply) => {
         // 수정
-        User.update({ email: request.params.email}, request.payload)
+        User.update({ email: request.params.email }, request.payload)
             .exec((err, user) => {
                 // 결과
                 if (err) {

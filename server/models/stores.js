@@ -10,13 +10,58 @@ module.exports = {
     tableName: 'stores',                   // lower case collection or table name
     connection: 'mongoConnection',      // database connection
     attributes: {
-        attr1: {
-            type: 'string',
-            required: true
+        closeTime: {
+            type: 'string'
         },
-        attr2: {
-            type: 'integer',
-            required: true
-        }
+        foodUid: {
+            type: 'string'
+        },
+        holiday: {
+            type: 'string'
+        },
+        isPaking: {
+            type: 'integer'
+        },
+        isReserve: {
+            type: 'integer'
+        },
+        mainImgUrl: {
+            type: 'string'
+        },
+        mainMenu: {
+            type: 'string'
+        },
+        newAddr: {
+            type: 'string'
+        },
+        openDay: {
+            type: 'string'
+        },
+        openTime: {
+            type: 'string'
+        },
+        parkingDetail: {
+            type: 'string'
+        },
+        posx: {
+            type: 'string'
+        },
+        posy: {
+            type: 'string'
+        },
+        seatCnt: {
+            type: 'integer'
+        },
+        storeNm: {
+            type: 'string'
+        },
+        tableCnt: {
+            type: 'integer'
+        },
+        tel: {
+            type: 'string'
+        },
     }
 };
+
+
