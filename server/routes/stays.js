@@ -13,5 +13,5 @@ module.exports = [
     { method: 'GET', path: '/stays/{dataSid}', config: controller.find },
     //{ method: 'POST', path: '/stays', config: controller.create },
     //{ method: 'PUT', path: '/stays/{dataSid}', config: controller.update },
-    // { method: 'DELETE', path: '/stays/{staysId}', config: controller.destroy }
+    //{ method: 'DELETE', path: '/stays/{staysId}', config: controller.destroy }
 ];
